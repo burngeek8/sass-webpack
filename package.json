@@ -1,0 +1,27 @@
+{
+  "name": "sass-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prod": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burngeek8/sass-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burngeek8/sass-webpack/issues"
+  },
+  "homepage": "https://github.com/burngeek8/sass-webpack#readme",
+  "devDependencies": {
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.26.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
